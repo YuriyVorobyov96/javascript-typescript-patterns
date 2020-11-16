@@ -15,7 +15,7 @@ class Database {
     this.data = data;
   }
 
-  getData() {
+  getData(): string {
     return this.data;
   }
 }
