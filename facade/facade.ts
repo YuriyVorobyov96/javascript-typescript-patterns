@@ -2,7 +2,7 @@ type Complaint = {
   id: Date,
   customer: string,
   details: string,
-};
+}
 
 class Complaints {
   complaints: Complaint[];
@@ -11,11 +11,11 @@ class Complaints {
     this.complaints = [];
   }
 
-  reply(complaint) {}
+  reply(complaint):any {}
 
-  add(complaint) {
+  add(complaint):any {
     this.complaints.push(complaint);
-    
+
     return this.reply(complaint);
   }
 }

@@ -1,5 +1,6 @@
 class Server {
   name: string;
+
   ip: string;
 
   constructor(name, ip) {
@@ -14,4 +15,4 @@ class Server {
 
 const aws = new Server('AWS', '82.11.11.32');
 
-console.log(aws.getUrl())
+console.log(aws.getUrl());
